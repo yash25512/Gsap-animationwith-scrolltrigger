@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: brown; */
+    padding: 0 50px;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    
+    
+    gap: 50px;
+}
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#container{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+ display: flex;
+
+}
+#left{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    padding:90px 40px ;
+}
+#left h1{
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+#left h1:nth-last-child(1){
+    margin-left: 30px;
+}
+#left h1 span img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -20px;
+    border: 3px solid black;
+}
+#left h1 span img :nth-child(1){
+    margin-left: 0;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    padding:90px 40px ;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+#right img{
+    height: 85%;
+    width: 90%;
+    object-fit: cover;
+ border-radius: 10px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+}
+.box h1{
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.box p{
+    font-size: 15px;
+    color: #dadada;
+    font-weight: 500;
+}
